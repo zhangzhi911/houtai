@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/mall_goods/src/main/resources/mapping/goodMapper.xml" description="&#10;&#10;&lt;/mapper&gt;" line="53" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d929c8f-c9ca-43aa-81d1-99e21552b4d0" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/mall_server/target/" />
+    <ignored path="$PROJECT_DIR$/mall_consumer/target/" />
+    <ignored path="$PROJECT_DIR$/mall_user/target/" />
+    <ignored path="$PROJECT_DIR$/mall_goods/target/" />
+    <ignored path="$PROJECT_DIR$/mall_gateway/target/" />
+    <ignored path="$PROJECT_DIR$/mall_testSwagger/target/" />
+    <ignored path="$PROJECT_DIR$/mall_testPoI/target/" />
+    <ignored path="$PROJECT_DIR$/mall_common/target/" />
+    <ignored path="$PROJECT_DIR$/common_fa/target/" />
+    <ignored path="$PROJECT_DIR$/mall_logistics/target/" />
+    <ignored path="$PROJECT_DIR$/logistics_user/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="annoyingly" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>discount</find>
+      <find>freight</find>
+      <find>findAll</find>
+      <find>register</find>
+      <find>inFlag</find>
+      <find>o_pay_status</find>
+      <find>mon</find>
+      <find>mongo</find>
+      <find>downLoadGoodsExcel</find>
+      <find>flag</find>
+      <find>请求来了</find>
+      <find>springframework</find>
+      <find>web</find>
+      <find>upload.rootDir</find>
+      <find>lom</find>
+      <find>aspectj</find>
+      <find>annotation</find>
+      <find>procee</find>
+      <find>aspectjweaver</find>
+      <find>XStream</find>
+      <find>thoughtworks</find>
+      <find>xstream</find>
+      <find>org.aspectj</find>
+      <find>aop</find>
+      <find>spring</find>
+      <find>redis</find>
+      <find>cj</find>
+      <find>selectLists</find>
+      <find>plus</find>
+      <find>redisTemplate</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>User</replace>
+      <replace>conUser</replace>
+      <replace>conGoods</replace>
+      <replace>userVo</replace>
+      <replace>ReturnEntity</replace>
+      <replace>user_id</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mall_goods/src/main/resources/mapping/BuyOrderMapper.xml" />
+        <option value="$PROJECT_DIR$/mall_user/src/main/java/com/taipingyang/Mapper/userMapper.java" />
+        <option value="$PROJECT_DIR$/mall_user/src/main/resources/mapping/userMapper.xml" />
+        <option value="$PROJECT_DIR$/mall_user/src/main/java/com/taipingyang/entity/User.java" />
+        <option value="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/api/user_api.java" />
+        <option value="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/userController.java" />
+        <option value="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/entity/conUser.java" />
+        <option value="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/handler/user_handler.java" />
+        <option value="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/api/Car_api.java" />
+        <option value="$PROJECT_DIR$/mall_gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/mall_gateway/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/mall_gateway/src/main/resources/application-gateway.yml" />
+        <option value="$PROJECT_DIR$/mall_gateway/src/main/java/com/taipingyang/GateWayApplication.java" />
+        <option value="$PROJECT_DIR$/mall_goods/src/main/java/com/taipingyang/Mapper/CommontMapper.java" />
+        <option value="$PROJECT_DIR$/mall_goods/src/test/java/com/taipingyang/Mapper/ComontTest.java" />
+        <option value="$PROJECT_DIR$/mall_goods/src/main/java/com/taipingyang/controller/CommontController.java" />
+        <option value="$PROJECT_DIR$/mall_goods/src/main/java/com/taipingyang/entity/Commont.java" />
+        <option value="$PROJECT_DIR$/mall_goods/src/main/resources/mapping/CommontMapper.xml" />
+        <option value="$PROJECT_DIR$/mall_server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/mall_goods/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/mall_consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/mall_testPoI/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/mall_testPoI/src/main/java/com/taipingyang/service/ITUserServiceImp.java" />
+        <option value="$PROJECT_DIR$/mall_logistics/pom.xml" />
+        <option value="$PROJECT_DIR$/mall_logistics/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/mall_logistics/src/main/java/com/taipingyang/logisticsApplication.java" />
+        <option value="$PROJECT_DIR$/mall_testPoI/src/main/java/com/taipingyang/controller/downAPp.java" />
+        <option value="$PROJECT_DIR$/mall_testPoI/pom.xml" />
+        <option value="$PROJECT_DIR$/mall_user/pom.xml" />
+        <option value="$PROJECT_DIR$/mall_user/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/mall_user/src/main/java/com/taipingyang/service/UserService.java" />
+        <option value="$PROJECT_DIR$/logistics_user/pom.xml" />
+        <option value="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/logistsback/LogisticsDriverController.java" />
+        <option value="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/logistsback/LogisticsTWareController.java" />
+        <option value="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/logistsback/LogisticsUserController.java" />
+        <option value="$PROJECT_DIR$/logistics_user/src/main/resources/mapping/TOrderMapper.xml" />
+        <option value="$PROJECT_DIR$/logistics_user/src/main/resources/mapping/TDriverMapper.xml" />
+        <option value="$PROJECT_DIR$/logistics_user/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/logistsback/LogisticsDetailController.java" />
+        <option value="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/entity/TOrder.java" />
+        <option value="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/logistsback/LogisticsOrderController.java" />
+        <option value="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/web/TOrderController.java" />
+        <option value="$PROJECT_DIR$/mall_user/src/main/java/com/taipingyang/entity/log_user.java" />
+        <option value="$PROJECT_DIR$/mall_user/src/main/java/com/taipingyang/entity/log_Driver.java" />
+        <option value="$PROJECT_DIR$/mall_user/src/main/java/com/taipingyang/controller/TOMail.java" />
+        <option value="$PROJECT_DIR$/mall_user/src/main/java/com/taipingyang/controller/userController.java" />
+        <option value="$PROJECT_DIR$/mall_user/src/main/java/com/taipingyang/Aop/AopConfig.java" />
+        <option value="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/api/User_api.java" />
+        <option value="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/handler/User_handler.java" />
+        <option value="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/mall_user/src/main/java/com/taipingyang/controller/Log_sendNode.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/ruanjian/apache-maven-3.6.0-bin" />
+        <option name="userSettingsFile" value="E:\ruanjian\apache-maven-3.6.0-bin\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="logistics_user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../MyAndroid/android_sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/logistsback" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\prije\annoyingly\mall_user\src\test\java\com\taipingyang" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.taipingyang.Aop" />
+      <recent name="com.taipingyang.config" />
+      <recent name="com.taipingyang.upPhoto" />
+      <recent name="com.taipingyang.entity" />
+      <recent name="com.taipingyang.Mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\prije\annoyingly\mall_consumer\src\main\java\com\taipingyang\controller\logistsback" />
+      <recent name="E:\prije\annoyingly\mall_consumer\src\main\java\com\taipingyang\api\logistsback" />
+      <recent name="E:\prije\annoyingly\logistics_user\src\main\java\com" />
+      <recent name="E:\prije\annoyingly\logistics_user\src\main\resources" />
+      <recent name="E:\prije\annoyingly\mall_user\src\main\java\com" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserApplication">
+    <configuration name="ComontTest.dd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall_goods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.taipingyang.Mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.taipingyang.Mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.taipingyang.Mapper.ComontTest" />
+      <option name="METHOD_NAME" value="dd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall_gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taipingyang.GateWayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mall_goods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.taipingyang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taipingyang.GoodsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall_testSwagger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taipingyang.SwaggerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="logistics_user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.taipingyang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taipingyang.TUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TUserPoI" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mall_testPoI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.taipingyang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taipingyang.TUserPoI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mall_user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.taipingyang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taipingyang.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="consumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall_consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taipingyang.consumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server1Applicatioin" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.taipingyang.server1Applicatioin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.TUserApplication" />
+        <item itemvalue="Spring Boot.TUserPoI" />
+        <item itemvalue="Spring Boot.GoodsApplication" />
+        <item itemvalue="JUnit.ComontTest.dd" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d929c8f-c9ca-43aa-81d1-99e21552b4d0" name="Default Changelist" comment="" />
+      <created>1582204635029</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582204635029</updated>
+      <workItem from="1582204638676" duration="346000" />
+      <workItem from="1582246027096" duration="19224000" />
+      <workItem from="1582340519962" duration="4389000" />
+      <workItem from="1582512949981" duration="8454000" />
+      <workItem from="1582696856847" duration="9250000" />
+      <workItem from="1582764145494" duration="8211000" />
+      <workItem from="1582810928161" duration="256000" />
+      <workItem from="1582850433032" duration="21293000" />
+      <workItem from="1583049831079" duration="962000" />
+      <workItem from="1583152551496" duration="10760000" />
+      <workItem from="1583215484114" duration="51000" />
+      <workItem from="1583216539923" duration="17940000" />
+      <workItem from="1583300422825" duration="2575000" />
+      <workItem from="1583303056567" duration="14628000" />
+      <workItem from="1583324396528" duration="3662000" />
+      <workItem from="1583367893661" duration="5062000" />
+      <workItem from="1583414173002" duration="830000" />
+      <workItem from="1583453502109" duration="6180000" />
+      <workItem from="1583543957267" duration="347000" />
+      <workItem from="1583551811048" duration="8024000" />
+      <workItem from="1583677368168" duration="2442000" />
+      <workItem from="1583716711719" duration="26812000" />
+      <workItem from="1583801923622" duration="15375000" />
+      <workItem from="1583891428627" duration="18350000" />
+      <workItem from="1583985654600" duration="16133000" />
+      <workItem from="1584059858510" duration="107000" />
+      <workItem from="1584060308352" duration="4319000" />
+      <workItem from="1584069554364" duration="1276000" />
+      <workItem from="1584081759118" duration="3587000" />
+      <workItem from="1584251551951" duration="9677000" />
+      <workItem from="1584324205584" duration="1229000" />
+      <workItem from="1584327675311" duration="57000" />
+      <workItem from="1584328190618" duration="600000" />
+      <workItem from="1584355684198" duration="1988000" />
+      <workItem from="1584361261502" duration="6965000" />
+      <workItem from="1584409293230" duration="6609000" />
+      <workItem from="1585039378585" duration="1772000" />
+      <workItem from="1585123716228" duration="2710000" />
+      <workItem from="1585135209515" duration="17000" />
+      <workItem from="1585135376669" duration="863000" />
+      <workItem from="1585185266550" duration="11000" />
+      <workItem from="1585191277193" duration="34000" />
+      <workItem from="1585278737758" duration="2414000" />
+      <workItem from="1585288978733" duration="704000" />
+      <workItem from="1585292828533" duration="7055000" />
+      <workItem from="1585375440544" duration="451000" />
+      <workItem from="1585528845998" duration="19870000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ComontTest_dd - 2020.03.15 at 15h 19m 18s.xml">
+      <configuration name="ComontTest.dd" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="293871000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49689442" visible="true" weight="0.21179625" />
+      <window_info id="Structure" order="1" sideWeight="0.5031056" side_tool="true" weight="0.24731903" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.501938" side_tool="true" weight="0.22453083" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.3182461" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3281471" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.34229138" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32904148" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.6556017" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49689442" visible="true" weight="0.23592493" />
+      <window_info id="Structure" order="1" sideWeight="0.5031056" side_tool="true" weight="0.24731903" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.501938" side_tool="true" weight="0.22453083" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.446959" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3281471" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.34229138" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32904148" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.30764076" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/logistsback/LogisticsUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/logistsback/LogisticsDriverController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/logistsback/LogisticsTWareController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/config/d.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/config/ReturnEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/api/logistsback/Logistics_detail_api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/api/logistsback/Logistics_driver_api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/consumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/entity/TWarehouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/entity/TCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/entity/TDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/web/TWarehouseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/entity/TUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/mapper/TDetailMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/resources/mapping/TOrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/mapper/TOrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/entity/TDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/service/TDriverService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/mapper/TDriverMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/resources/mapping/TDriverMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/TUserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/web/TDriverController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/web/TDetailrController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/web/TUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/service/TOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/logistsback/LogisticsDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_consumer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/entity/TOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-369">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/api/logistsback/Logistics_order_api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/logistsback/LogisticsOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/web/TOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_user/src/main/java/com/taipingyang/UserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="140" column="36" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="196" column="36" selection-start-line="196" selection-start-column="36" selection-end-line="196" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_user/src/test/java/com/taipingyang/TestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_user/src/main/java/com/taipingyang/entity/UserVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_user/src/main/java/com/taipingyang/entity/log_Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_user/src/main/java/com/taipingyang/entity/log_user.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_user/src/main/java/com/taipingyang/controller/TOMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="method#validation#0;class#TOMail#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_user/src/main/java/com/taipingyang/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_user/src/main/java/com/taipingyang/controller/userController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="72" column="36" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="36" />
+          <folding>
+            <element signature="e#4004#4005#0" expanded="true" />
+            <element signature="e#4044#4045#0" expanded="true" />
+            <element signature="e#4145#4146#0" expanded="true" />
+            <element signature="e#4187#4188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_user/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/handler/User_handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/api/User_api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="52" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="83" column="1" lean-forward="true" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+          <folding>
+            <element signature="e#1906#1907#0" expanded="true" />
+            <element signature="e#1950#1951#0" expanded="true" />
+            <element signature="e#2072#2073#0" expanded="true" />
+            <element signature="e#2211#2212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_user/src/main/java/com/taipingyang/Aop/AopConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="method#around#0;class#AopConfig#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_user/src/main/java/com/taipingyang/config/SendMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_user/src/main/java/com/taipingyang/config/ReturnEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_user/src/main/java/com/taipingyang/controller/Log_sendNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#sendnote#0;class#Log_sendNode#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>annoyingly</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

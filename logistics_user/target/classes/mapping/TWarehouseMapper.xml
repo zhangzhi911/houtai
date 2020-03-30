@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.taipingyang.mapper.TWarehouseMapper">
+<!--    &lt;!&ndash; 通用查询结果列 &ndash;&gt;-->
+<!--    <sql id="Base_Column_List">-->
+<!--        user_id, user_account, user_password, user_name, user_age, user_gender, user_ifforbidden, user_headportrait, user_phonenumber, user_mailbox, user_status-->
+<!--    </sql>-->
+
+    <resultMap id="ResultMap" type="com.taipingyang.entity.TWarehouse">
+        <id column="warehouse_id" property="warehouse_id"></id>
+        <result column="warehouse_name" property="warehouse_name"></result>
+        <result column="warehouse_type" property="warehouse_type"></result>
+        <result column="warehouse_floorspace" property="warehouse_floorspace"></result>
+        <result column="warehouse_address" property="warehouse_address"></result>
+        <result column="order_id" property="order_id"></result>
+
+
+        <!-- 配置一对多的关系 订单-->
+        <collection property="orderList" javaType="list" ofType="com.taipingyang.entity.TOrder">
+            <!-- 配置主键，是关联Order的唯一标识 -->
+            <id property="order_id" column="order_id" />
+            <result property="order_isverify" column="order_isverify" />
+        </collection>
+
+    </resultMap>
+
+    <select id="selectLists" resultMap="ResultMap">
+select * from t_warehouse as a LEFT JOIN t_order as b
+on a.order_id=b.order_id where b.order_isverify=1
+    </select>
+
+
+</mapper>

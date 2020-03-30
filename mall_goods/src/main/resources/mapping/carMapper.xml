@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"  >
+<mapper namespace="com.taipingyang.Mapper.carMapper">
+
+    <resultMap id="carMap" type="com.taipingyang.entity.Car">
+        <id column="t_id" property="t_id"></id>
+        <result column="t_gid" property="t_gid"></result>
+        <result column="t_uid" property="t_uid"></result>
+        <association property="goods" column="t_gid" select="selectBygoods"></association>
+        <association property="user" column="t_uid" select="selectByuser"></association>
+    </resultMap>
+
+
+    <resultMap id="UserResultMap" type="com.taipingyang.entity.User">
+        <id column="user_id" property="userId"></id>
+        <result column="user_name" property="user_name"></result>
+        <result column="user_password" property="user_password"></result>
+        <result column="user_sex" property="sex"></result>
+        <result column="user_age" property="age"></result>
+        <result column="user_permiss" property="permiss"></result>
+        <result column="user_money" property="money"></result>
+        <result column="user_photo" property="photo"></result>
+        <result column="user_flag" property="userFlag"></result>
+        <result column="user_address" property="address"></result>
+    </resultMap>
+    <select id="selectBygoods" resultType="com.taipingyang.entity.Goods">
+SELECT * FROM `t_goods` WHERE `t_goods`.`t_gid`=#{id}
+    </select>
+
+    <select id="selectByuser" resultMap="UserResultMap">
+SELECT * FROM `t_users` WHERE `t_users`.`user_id`=#{id}
+    </select>
+
+    <select id="getCarList" resultMap="carMap">
+        SELECT * FROM `t_car`
+        <where>
+            <if test="t_uid!=null">
+                t_uid=#{t_uid}
+            </if>
+        </where>
+    </select>
+
+    <!--    ????-->
+    <select id="selectByCar" resultMap="carMap">
+        SELECT
+        *
+        FROM
+        `t_car`
+        <where>
+            <if test="t_id!=null">
+                and `t_id `=#{t_id }
+            </if>
+            <if test="t_gid!=null and t_uid!=null">
+                and `t_gid` = #{t_gid} and `t_uid` = #{t_uid}
+            </if>
+        </where>
+    </select>
+
+
+    <insert id="insertCar">
+        insert into t_car(t_gid,t_uid,t_sum,t_count) value (#{t_gid},#{t_uid},#{t_sum},#{t_count})
+    </insert>
+
+    <update id="updateCar">
+        update t_car set t_gid=#{t_gid},t_uid=#{t_uid},t_sum=#{t_sum},t_count=#{t_count} where t_id=#{t_id}
+    </update>
+
+    <delete id="deleteCar">
+        delete from t_car where t_id=#{t_id}
+    </delete>
+
+
+    <resultMap id="AddressMap" type="com.taipingyang.entity.Address">
+        <id column="t_id" property="t_id"></id>
+        <association property="user" column="t_id" select="selectByuser"></association>
+    </resultMap>
+    <select id="getAddress" resultMap="AddressMap">
+        SELECT * FROM `t_address`
+    </select>
+
+</mapper>

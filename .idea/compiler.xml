@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mall_gateway" />
+        <module name="logistics_user" />
+        <module name="mall_consumer" />
+        <module name="mall_testPoI" />
+        <module name="mall_testSwagger" />
+        <module name="mall_user" />
+        <module name="mall_goods" />
+        <module name="mall_server" />
+        <module name="mall_logistics" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common_fa" target="1.5" />
+      <module name="mall_common" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common_fa" options="-parameters" />
+      <module name="logistics_user" options="-parameters" />
+      <module name="mall_common" options="" />
+      <module name="mall_consumer" options="-parameters" />
+      <module name="mall_gateway" options="-parameters" />
+      <module name="mall_goods" options="-parameters" />
+      <module name="mall_logistics" options="-parameters" />
+      <module name="mall_server" options="-parameters" />
+      <module name="mall_testPoI" options="-parameters" />
+      <module name="mall_testSwagger" options="-parameters" />
+      <module name="mall_user" options="-parameters" />
+    </option>
+  </component>
+</project>

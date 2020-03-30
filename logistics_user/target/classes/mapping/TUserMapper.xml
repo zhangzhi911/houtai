@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.taipingyang.mapper.TUserMapper">
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        user_id, user_account, user_password, user_name, user_age, user_gender, user_ifforbidden, user_headportrait, user_phonenumber, user_mailbox, user_status
+    </sql>
+
+    <update id="infalse">
+        UPDATE t_user SET user_ifforbidden=user_ifforbidden+1 WHERE user_id=#{user_id}
+    </update>
+
+    <update id="inture">
+        UPDATE t_user SET user_ifforbidden=user_ifforbidden-1 WHERE user_id=#{user_id}
+    </update>
+
+
+</mapper>

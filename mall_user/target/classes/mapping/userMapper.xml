@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"  >
+<mapper namespace="com.taipingyang.Mapper.userMapper">
+
+    <resultMap id="UserResultMap" type="com.taipingyang.entity.User">
+        <id column="user_id" property="userId"></id>
+        <result column="user_name" property="user_name"></result>
+        <result column="user_password" property="user_password"></result>
+        <result column="user_sex" property="sex"></result>
+        <result column="user_age" property="age"></result>
+        <result column="user_permiss" property="permiss"></result>
+        <result column="user_money" property="money"></result>
+        <result column="user_photo" property="photo"></result>
+        <result column="user_flag" property="userFlag"></result>
+        <result column="user_address" property="address"></result>
+    </resultMap>
+
+    <select id="login" resultMap="UserResultMap" parameterType="com.taipingyang.entity.User">
+        select * from t_users where user_name = #{user_name} and user_password = #{user_password}
+
+    </select>
+    <!--    -->
+
+    <insert id="register">
+    INSERT INTO `taipingyang`.`t_users` (
+  `user_name`,
+  `user_password`,
+  `user_sex`,
+  `user_permiss`,
+  `user_money`,
+  `user_flag`
+)
+VALUES
+  (#{user_name}, #{user_password}, #{sex}, #{permiss}, '0', '1') ;
+    </insert>
+
+    <select id="findAll" resultMap="UserResultMap">
+        select * from t_users
+        <where>
+            <if test="user_name != null">
+                and user_name like concat('%',#{user_name},'%')
+            </if>
+        </where>
+    </select>
+
+    <select id="login" resultMap="UserResultMap" parameterType="com.taipingyang.entity.User" >
+        select * from t_users where user_name = #{user_name} and user_password = #{user_password}
+    </select>
+
+    <select id="show" resultMap="UserResultMap" parameterType="com.taipingyang.entity.User">
+        select * from t_users where user_id=#{userId}
+    </select>
+
+
+
+    <update id="Flag">
+        UPDATE t_users SET user_flag=user_flag+2 WHERE user_id=#{userId}
+    </update>
+
+    <update id="inFlag">
+        UPDATE t_users SET user_flag=user_flag-2 WHERE user_id=#{userId}
+    </update>
+
+    <update id="update">
+         UPDATE t_users SET user_name=#{user_name},user_age=#{age},user_sex=#{sex},user_address=#{address} WHERE user_id=#{userId}
+    </update>
+
+
+
+
+
+</mapper>
