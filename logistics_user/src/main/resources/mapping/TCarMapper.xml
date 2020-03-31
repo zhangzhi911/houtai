@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.taipingyang.mapper.TDriverMapper">
+<!--    &lt;!&ndash; 通用查询结果列 &ndash;&gt;-->
+<!--    <sql id="Base_Column_List">-->
+<!--        user_id, user_account, user_password, user_name, user_age, user_gender, user_ifforbidden, user_headportrait, user_phonenumber, user_mailbox, user_status-->
+<!--    </sql>-->
+
+    <resultMap id="ResultMap" type="com.taipingyang.entity.TDriver">
+        <id column="driver_id" property="driver_id"></id>
+        <result column="car_id" property="car_id"></result>
+        <result column="driver_account" property="driver_account"></result>
+        <result column="driver_password" property="driver_password"></result>
+        <result column="driverselectLists_name" property="driver_name"></result>
+        <result column="driver_age" property="driver_age"></result>
+        <result column="driver_gender" property="driver_gender"></result>
+        <result column="driver_ifforbidden" property="driver_ifforbidden"></result>
+        <result column="driver_headportrait" property="driver_headportrait"></result>
+        <result column="driver_phonenumber" property="driver_phonenumber"></result>
+        <result column="driver_mailbox" property="driver_mailbox"></result>
+        <result column="driver_status" property="driver_status"></result>
+        <result column="driver_level" property="driver_level"></result>
+
+
+        <!-- 配置一对多的关系 车-->
+        <collection property="carList" javaType="list" ofType="com.taipingyang.entity.TCar">
+            <!-- 配置主键，是关联Order的唯一标识 -->
+            <id property="car_id" column="car_id" />
+            <result property="car_name" column="car_name" />
+            <result property="car_grade" column="car_grade" />
+            <result property="car_type" column="car_type" />
+            <result property="car_durableyears" column="car_durableyears" />
+            <result property="car_colour" column="car_colour" />
+            <result property="car_annualinspection" column="car_annualinspection" />
+            <result property="car_maximum" column="car_maximum" />
+            <result property="car_weight" column="car_weight" />
+            <result property="car_length" column="car_length" />
+            <result property="car_positionx" column="car_positionx" />
+            <result property="car_positiony" column="car_positiony" />
+            <result property="car_price" column="car_price" />
+            <result property="car_licenseplatenumber" column="car_licenseplatenumber" />
+            <result property="car_ifunused" column="car_ifunused" />
+            <result property="car_remark" column="car_remark" />
+        </collection>
+
+
+
+    </resultMap>
+
+    <select id="selectLists" resultMap="ResultMap">
+select * from t_driver as a left JOIN t_car as b on a.car_id=b.car_id
+    </select>
+
+    <update id="infalse">
+        UPDATE t_driver SET driver_ifforbidden=1 WHERE driver_id=#{driver_id}
+    </update>
+
+    <update id="inture">
+        UPDATE t_driver SET driver_ifforbidden=0 WHERE driver_id=#{driver_id}
+    </update>
+
+    <insert id="addDriver">
+insert into t_driver set driver_name=#{driver_name},driver_level=#{driver_level},
+driver_man=#{driver_man},car_id=#{car_id},
+driver_gender=#{driver_gender},driver_age=#{driver_age},driver_mailbox=#{driver_mailbox},
+driver_phonenumber=#{driver_phonenumber},driver_headportrait=#{driver_headportrait}
+    </insert>
+
+
+</mapper>
