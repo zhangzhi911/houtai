@@ -26,7 +26,7 @@ public class TOrderService {
     private TOrderMapper tOrderMapper;
 
 
-    public PageInfo<TOrder> selectLists(TOrder tOrder){
+    public PageInfo<TOrder> selectLists(TOrder tOrder) {
         PageHelper.startPage(tOrder.getPageNo(), tOrder.getPageSize());
         EntityWrapper<TOrder> wrapper = new EntityWrapper<TOrder>();
 
@@ -43,6 +43,17 @@ public class TOrderService {
         tOrderMapper.infalse(order_id);
     }
 
-    public void addorder(TOrder tOrder) {tOrderMapper.addorder(tOrder);
+    public void addorder(TOrder tOrder) {
+        tOrderMapper.addorder(tOrder);
     }
+
+    public Integer selectmaxId() {
+        return tOrderMapper.selectmaxId();
+    }
+
+    public void updateOrder(TOrder tOrder) {
+        tOrderMapper.updateById(tOrder);
+    }
+
 }
+

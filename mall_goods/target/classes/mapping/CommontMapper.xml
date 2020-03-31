@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"  >
+<mapper namespace="com.taipingyang.Mapper.CommontMapper">
+
+
+    <resultMap id="UserResultMap" type="com.taipingyang.entity.User">
+        <id column="user_id" property="userId"></id>
+        <result column="user_name" property="user_name"></result>
+        <result column="user_password" property="user_password"></result>
+        <result column="user_sex" property="sex"></result>
+        <result column="user_age" property="age"></result>
+        <result column="user_permiss" property="permiss"></result>
+        <result column="user_money" property="money"></result>
+        <result column="user_photo" property="photo"></result>
+        <result column="user_flag" property="userFlag"></result>
+        <result column="user_address" property="address"></result>
+    </resultMap>
+
+    <resultMap id="CommontMap" type="com.taipingyang.entity.Commont">
+        <id column="id" property="id" ></id>
+        <association property="user" column="user_id" select="selectByuser"></association>
+        <collection property="commontList" column="id" select="selectComontList"></collection>
+    </resultMap>
+
+    <select id="selectByuser" resultMap="UserResultMap">
+        select * from t_users where user_id=#{id}
+    </select>
+    <select id="selectComontList" resultMap="CommontMap">
+        SELECT * FROM `t_commont` WHERE `parent_id`=#{id}
+    </select>
+
+
+    <select id="getList" resultMap="CommontMap">
+        SELECT * FROM `t_commont` WHERE `parent_id`=0
+    </select>
+
+
+
+</mapper>

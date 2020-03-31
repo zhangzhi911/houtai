@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.taipingyang.mapper.TOrderMapper">
-<!--    &lt;!&ndash; 通用查询结果列 &ndash;&gt;-->
-<!--    <sql id="Base_Column_List">-->
-<!--        user_id, user_account, user_password, user_name, user_age, user_gender, user_ifforbidden, user_headportrait, user_phonenumber, user_mailbox, user_status-->
-<!--    </sql>-->
+    <!--    &lt;!&ndash; 通用查询结果列 &ndash;&gt;-->
+    <!--    <sql id="Base_Column_List">-->
+    <!--        user_id, user_account, user_password, user_name, user_age, user_gender, user_ifforbidden, user_headportrait, user_phonenumber, user_mailbox, user_status-->
+    <!--    </sql>-->
 
     <resultMap id="OrderResultMap" type="com.taipingyang.entity.TOrder">
         <id column="order_id" property="order_id"></id>
@@ -28,42 +28,51 @@
         <!-- 配置一对多的关系  用户-->
         <collection property="userList" javaType="list" ofType="com.taipingyang.entity.TUser">
             <!-- 配置主键，是关联Order的唯一标识 -->
-            <id property="user_id" column="user_id" />
-            <result property="user_account" column="user_account" />
-            <result property="user_password" column="user_password" />
-            <result property="user_name" column="user_name" />
+            <id property="user_id" column="user_id"/>
+            <result property="user_account" column="user_account"/>
+            <result property="user_password" column="user_password"/>
+            <result property="user_name" column="user_name"/>
         </collection>
 
         <!-- 配置一对多的关系 类型-->
         <collection property="carList" javaType="list" ofType="com.taipingyang.entity.Type">
             <!-- 配置主键，是关联Order的唯一标识 -->
-            <id property="cartype_id" column="cartype_id" />
-            <result property="cartype_name" column="cartype_name" />
+            <id property="cartype_id" column="cartype_id"/>
+            <result property="cartype_name" column="cartype_name"/>
         </collection>
 
         <!-- 配置一对多的关系 详细表-->
         <collection property="detailList" javaType="list" ofType="com.taipingyang.entity.TDetail">
             <!-- 配置主键，是关联Order的唯一标识 -->
-            <id property="order_detail_id" column="order_detail_id" />
-            <result property="order_detail_drivername" column="order_detail_drivername" />
-            <result property="order_detail_ifarrive" column="order_detail_ifarrive" />
-            <result property="order_detail_driverphone" column="order_detail_driverphone" />
+            <id property="order_detail_id" column="order_detail_id"/>
+            <result property="order_detail_drivername" column="order_detail_drivername"/>
+            <result property="order_detail_ifarrive" column="order_detail_ifarrive"/>
+            <result property="order_detail_driverphone" column="order_detail_driverphone"/>
         </collection>
     </resultMap>
 
     <select id="selectLists" resultMap="OrderResultMap">
-select * from t_order as a LEFT JOIN
-t_user as b on a.user_id=b.user_id
-left join car_type c on a.cartype_id=c.cartype_id
+        select * from t_order as a LEFT JOIN
+        t_user as b on a.user_id=b.user_id
+        left join car_type c on a.cartype_id=c.cartype_id
+        <where>
+            <if test="order_isverify!=null">
+                a.`order_isverify`=#{order_isverify}
+            </if>
+            <if test="user_id!=null and user_id!=0">
+                a.`user_id`=#{user_id}
+            </if>
+
+        </where>
     </select>
 
 
     <update id="infalse">
-        UPDATE t_order SET order_isverify=1 WHERE order_id=#{order_id}
+        UPDATE t_order SET order_isverify=2 WHERE order_id=#{order_id}
     </update>
 
     <update id="inture">
-        UPDATE t_order SET order_isverify=0 WHERE order_id=#{order_id}
+        UPDATE t_order SET order_isverify=1 WHERE order_id=#{order_id}
     </update>
     <insert id="addorder">
 insert into t_order set order_cargotype=#{order_cargotype},order_departure=#{order_departure},
@@ -71,5 +80,10 @@ order_destination=#{order_destination},order_linkmanphone=#{order_linkmanphone},
 order_linkmanname=#{order_linkmanname},user_id=#{user_id},cartype_id=#{cartype_id},order_reason=#{order_reason}
 
     </insert>
+
+
+    <select id="selectmaxId" resultType="java.lang.Integer">
+        SELECT MAX(`order_detail_id`) FROM `order_detail`
+    </select>
 
 </mapper>
