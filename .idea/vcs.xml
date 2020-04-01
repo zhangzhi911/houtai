@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+<<<<<<< HEAD
+    <mapping directory="$PROJECT_DIR$/logistics-vue" vcs="Git" />
+=======
+>>>>>>> e49ee7b3ccf97dd2f05761ad5b190d33d58d9113
   </component>
 </project>

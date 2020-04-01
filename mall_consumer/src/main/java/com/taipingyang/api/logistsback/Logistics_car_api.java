@@ -13,19 +13,9 @@ import org.springframework.web.bind.annotation.RequestParam;
  * To change this template use
  */
 @FeignClient(value = "logisticsuser")
-public interface Logistics_driver_api {
+public interface Logistics_car_api {
 
-    @RequestMapping("/tdriver/list")
-    Object selectLists(@RequestBody Object o);
-
-    @RequestMapping("/tdriver/inture")
-    void inture(@RequestParam("driver_id") Integer driver_id);
-
-    @RequestMapping("/tdriver/infalse")
-    void infalse(@RequestParam("driver_id") Integer driver_id);
-
-
-    @RequestMapping("driver/add")
-    void addDriver(@RequestBody Object o);
+    @RequestMapping("tcar/add")
+    void addCar(@RequestBody Object o);
 
 }

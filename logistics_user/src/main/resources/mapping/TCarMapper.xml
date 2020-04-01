@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.taipingyang.mapper.TCarMapper">
+<!--    &lt;!&ndash; 通用查询结果列 &ndash;&gt;-->
+<!--    <sql id="Base_Column_List">-->
+<!--        user_id, user_account, user_password, user_name, user_age, user_gender, user_ifforbidden, user_headportrait, user_phonenumber, user_mailbox, user_status-->
+<!--    </sql>-->
+
+    <insert id="addCar">
+insert into t_car set car_name=#{car_name},car_grade=#{car_grade},
+car_type=#{car_type},car_durableyears=#{car_durableyears},
+car_colour=#{car_colour},car_annualinspection=#{car_annualinspection},
+car_maximum=#{car_maximum},car_weight=#{car_weight},car_length=#{car_length},
+car_price=#{car_price},car_licenseplatenumber=#{car_licenseplatenumber},
+car_ifunused=#{car_ifunused},car_remark=#{car_remark}
+    </insert>
+
+
+</mapper>

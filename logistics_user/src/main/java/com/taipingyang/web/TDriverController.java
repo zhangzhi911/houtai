@@ -45,4 +45,9 @@ public class TDriverController {
     public void infalse(@RequestParam("driver_id") Integer driver_id){
         tDriverService.infalse(driver_id);
     }
+
+    @RequestMapping("driver/add")
+    public void addDriver(@RequestBody TDriver tDriver){
+        tDriverService.addDriver(tDriver);
+    }
 }

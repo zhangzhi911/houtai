@@ -77,8 +77,7 @@
     <insert id="addorder">
 insert into t_order set order_cargotype=#{order_cargotype},order_departure=#{order_departure},
 order_destination=#{order_destination},order_linkmanphone=#{order_linkmanphone},
-order_linkmanname=#{order_linkmanname},user_id=#{user_id},cartype_id=#{cartype_id},order_reason=#{order_reason}
-
+order_linkmanname=#{order_linkmanname},order_creationtime=#{order_creationtime},order_modifytime=#{order_modifytime},user_id=#{user_id},cartype_id=#{cartype_id},order_reason=#{order_reason}
     </insert>
 
 

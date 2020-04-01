@@ -1,10 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/mall_goods/src/main/resources/mapping/goodMapper.xml" description="&#10;&#10;&lt;/mapper&gt;" line="53" />
-  </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="8d929c8f-c9ca-43aa-81d1-99e21552b4d0" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="8d929c8f-c9ca-43aa-81d1-99e21552b4d0" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logistics-vue/src/components/logistics/logistcsAddCar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logistics-vue/src/components/logistics/logistcsAddDriver.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logistics-vue/src/components/logistics/logistcsAddOrder.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/mapper/TCarMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/service/TCarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/web/TCarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logistics_user/src/main/resources/mapping/TCarMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/api/logistsback/Logistics_car_api.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/logistsback/LogisticsCarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annoyingly.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics-vue/src/components/logistics/logistcsOrder.vue" beforeDir="false" afterPath="$PROJECT_DIR$/logistics-vue/src/components/logistics/logistcsOrder.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics-vue/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/logistics-vue/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/logistics_user.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/entity/TDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/entity/TDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/mapper/TDriverMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/mapper/TDriverMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/service/TDriverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/service/TDriverService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/web/TDriverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/web/TDriverController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/resources/mapping/TDriverMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/resources/mapping/TDriverMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/resources/mapping/TOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/resources/mapping/TOrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/target/classes/com/taipingyang/entity/TDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/target/classes/com/taipingyang/entity/TDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/target/classes/com/taipingyang/mapper/TDriverMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/target/classes/com/taipingyang/mapper/TDriverMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/target/classes/com/taipingyang/service/TDriverService.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/target/classes/com/taipingyang/service/TDriverService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/target/classes/com/taipingyang/web/TDriverController.class" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/target/classes/com/taipingyang/web/TDriverController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/target/classes/mapping/TDriverMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/target/classes/mapping/TDriverMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/target/classes/mapping/TOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/target/classes/mapping/TOrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_consumer/mall_consumer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/api/logistsback/Logistics_driver_api.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/api/logistsback/Logistics_driver_api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/logistsback/LogisticsDriverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/logistsback/LogisticsDriverController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mall_consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mall_consumer/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_consumer/target/classes/com/taipingyang/api/logistsback/Logistics_driver_api.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall_consumer/target/classes/com/taipingyang/api/logistsback/Logistics_driver_api.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_consumer/target/classes/com/taipingyang/controller/logistsback/LogisticsDriverController.class" beforeDir="false" afterPath="$PROJECT_DIR$/mall_consumer/target/classes/com/taipingyang/controller/logistsback/LogisticsDriverController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_gateway/mall_gateway.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_logistics/mall_logistics.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_server/mall_server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_testPoI/mall_testPoI.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_testSwagger/mall_testSwagger.iml" beforeDir="false" />
+    </list>
+=======
+      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/entity/TDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/entity/TDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/mapper/TOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/mapper/TOrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/service/TDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/service/TDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/service/TOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/service/TOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/web/TDetailrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/web/TDetailrController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/resources/mapping/TDriverMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/resources/mapping/TDriverMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/resources/mapping/TOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/resources/mapping/TOrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/api/logistsback/Logistics_detail_api.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/api/logistsback/Logistics_detail_api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/logistsback/LogisticsDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/logistsback/LogisticsDetailController.java" afterDir="false" />
+    </list>
+>>>>>>> cdf667692520a05e01bd908b98b76737c61cef0e
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/mall_server/target/" />
@@ -18,6 +74,7 @@
     <ignored path="$PROJECT_DIR$/common_fa/target/" />
     <ignored path="$PROJECT_DIR$/mall_logistics/target/" />
     <ignored path="$PROJECT_DIR$/logistics_user/target/" />
+>>>>>>> e49ee7b3ccf97dd2f05761ad5b190d33d58d9113
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +101,18 @@
   <component name="FavoritesManager">
     <favorites_list name="annoyingly" />
   </component>
-  <component name="FileEditorManager">
-    <leaf />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+=======
   <component name="FindInProjectRecents">
     <findStrings>
       <find>mongo</find>
@@ -156,12 +214,13 @@
         <option value="$PROJECT_DIR$/logistics_user/src/main/resources/mapping/TOrderMapper.xml" />
       </list>
     </option>
+>>>>>>> e49ee7b3ccf97dd2f05761ad5b190d33d58d9113
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="E:/ruanjian/apache-maven-3.6.0-bin" />
-        <option name="userSettingsFile" value="E:\ruanjian\apache-maven-3.6.0-bin\conf\settings.xml" />
+        <option name="localRepository" value="D:\QQPCmgr\Desktop\CMS\repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../CMS/apache-maven-3.6.0-bin" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -171,6 +230,11 @@
       </MavenImportingSettings>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="ProjectId" id="1Zt5eH5EFprLPDsocYTMllJEIcp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+=======
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -197,16 +261,19 @@
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
+>>>>>>> e49ee7b3ccf97dd2f05761ad5b190d33d58d9113
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../MyAndroid/android_sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/logistsback" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/logistics_user/src/main/resources/mapping" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -216,22 +283,22 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\prije\annoyingly\mall_user\src\test\java\com\taipingyang" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.taipingyang.Aop" />
-      <recent name="com.taipingyang.config" />
-      <recent name="com.taipingyang.upPhoto" />
-      <recent name="com.taipingyang.entity" />
-      <recent name="com.taipingyang.Mapper" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\QQPCmgr\Desktop\太平洋物流\logistics\logistics_user\src\main\resources\mapping" />
+      <recent name="D:\QQPCmgr\Desktop\太平洋物流\logistics\logistics-vue\src\components\logistics" />
       <recent name="E:\prije\annoyingly\mall_consumer\src\main\java\com\taipingyang\controller\logistsback" />
       <recent name="E:\prije\annoyingly\mall_consumer\src\main\java\com\taipingyang\api\logistsback" />
       <recent name="E:\prije\annoyingly\logistics_user\src\main\java\com" />
-      <recent name="E:\prije\annoyingly\logistics_user\src\main\resources" />
-      <recent name="E:\prije\annoyingly\mall_user\src\main\java\com" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.taipingyang.service" />
+      <recent name="com.taipingyang.mapper" />
+      <recent name="com.taipingyang.web" />
+      <recent name="com.taipingyang.controller.logistsback" />
+      <recent name="com.taipingyang.api.logistsback" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\prije\annoyingly\mall_user\src\test\java\com\taipingyang" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -246,7 +313,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication">
+  <component name="RunManager" selected="Spring Boot.TUserApplication">
     <configuration name="ComontTest.dd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mall_goods" />
       <extension name="coverage">
@@ -410,7 +477,18 @@
       <workItem from="1585292828533" duration="7055000" />
       <workItem from="1585375440544" duration="451000" />
       <workItem from="1585528845998" duration="19870000" />
+<<<<<<< HEAD
       <workItem from="1585614936586" duration="16435000" />
+=======
+<<<<<<< HEAD
+      <workItem from="1585645648665" duration="122000" />
+      <workItem from="1585645793259" duration="16911000" />
+    </task>
+    <servers />
+  </component>
+=======
+      <workItem from="1585614936586" duration="15703000" />
+>>>>>>> cdf667692520a05e01bd908b98b76737c61cef0e
     </task>
     <servers />
   </component>
@@ -422,6 +500,7 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="310306000" />
   </component>
+>>>>>>> e49ee7b3ccf97dd2f05761ad5b190d33d58d9113
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -431,6 +510,26 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
+<<<<<<< HEAD
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+=======
   <component name="ToolWindowManager">
     <frame x="197" y="67" width="627" height="666" extended-state="0" />
     <layout>
@@ -895,6 +994,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/entity/TDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -902,6 +1002,9 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> e49ee7b3ccf97dd2f05761ad5b190d33d58d9113
+>>>>>>> cdf667692520a05e01bd908b98b76737c61cef0e
   </component>
   <component name="masterDetails">
     <states>
