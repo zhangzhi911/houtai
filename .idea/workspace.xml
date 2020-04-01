@@ -4,17 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/mall_goods/src/main/resources/mapping/goodMapper.xml" description="&#10;&#10;&lt;/mapper&gt;" line="53" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d929c8f-c9ca-43aa-81d1-99e21552b4d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/entity/TDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/entity/TDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/mapper/TOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/mapper/TOrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/service/TDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/service/TDetailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/service/TOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/service/TOrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/web/TDetailrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/web/TDetailrController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/resources/mapping/TDriverMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/resources/mapping/TDriverMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logistics_user/src/main/resources/mapping/TOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logistics_user/src/main/resources/mapping/TOrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/api/logistsback/Logistics_detail_api.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/api/logistsback/Logistics_detail_api.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/logistsback/LogisticsDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall_consumer/src/main/java/com/taipingyang/controller/logistsback/LogisticsDetailController.java" afterDir="false" />
-    </list>
+    <list default="true" id="8d929c8f-c9ca-43aa-81d1-99e21552b4d0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/mall_server/target/" />
@@ -192,146 +182,18 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="246" />
+    <option name="y" value="83" />
+    <option name="width" value="784" />
+    <option name="height" value="833" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="annoyingly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="annoyingly" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="annoyingly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="annoyingly" type="462c0819:PsiDirectoryNode" />
-              <item name="logistics_user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="annoyingly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="annoyingly" type="462c0819:PsiDirectoryNode" />
-              <item name="logistics_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="annoyingly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="annoyingly" type="462c0819:PsiDirectoryNode" />
-              <item name="logistics_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="annoyingly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="annoyingly" type="462c0819:PsiDirectoryNode" />
-              <item name="logistics_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="annoyingly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="annoyingly" type="462c0819:PsiDirectoryNode" />
-              <item name="logistics_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="annoyingly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="annoyingly" type="462c0819:PsiDirectoryNode" />
-              <item name="logistics_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapping" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="annoyingly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="annoyingly" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="annoyingly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="annoyingly" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="annoyingly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="annoyingly" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="annoyingly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="annoyingly" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="annoyingly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="annoyingly" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="annoyingly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="annoyingly" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="taipingyang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="annoyingly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="annoyingly" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="taipingyang" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="annoyingly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="annoyingly" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="taipingyang" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="logistsback" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="annoyingly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="annoyingly" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -548,7 +410,7 @@
       <workItem from="1585292828533" duration="7055000" />
       <workItem from="1585375440544" duration="451000" />
       <workItem from="1585528845998" duration="19870000" />
-      <workItem from="1585614936586" duration="15703000" />
+      <workItem from="1585614936586" duration="16435000" />
     </task>
     <servers />
   </component>
@@ -558,7 +420,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="309574000" />
+    <option name="totallyTimeSpent" value="310306000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -570,9 +432,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="197" y="67" width="627" height="666" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49689442" weight="0.26541555" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49689442" visible="true" weight="0.69595784" />
       <window_info id="Structure" order="1" sideWeight="0.5031056" side_tool="true" weight="0.24731903" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -582,7 +444,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.1713881" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.22659177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -930,13 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/entity/TDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/TUserApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -1037,6 +892,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logistics_user/src/main/java/com/taipingyang/entity/TDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
         </state>
       </provider>
     </entry>
