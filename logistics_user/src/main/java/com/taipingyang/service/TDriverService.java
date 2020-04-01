@@ -51,4 +51,8 @@ public class TDriverService {
     public void infalse(Integer driver_id) {
         tDriverMapper.infalse(driver_id);
     }
+
+    public void addDriver(TDriver tDriver) {
+        tDriverMapper.addDriver(tDriver);
+    }
 }

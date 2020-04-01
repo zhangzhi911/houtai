@@ -23,4 +23,9 @@ public interface Logistics_driver_api {
 
     @RequestMapping("/tdriver/infalse")
     void infalse(@RequestParam("driver_id") Integer driver_id);
+
+
+    @RequestMapping("driver/add")
+    void addDriver(@RequestBody Object o);
+
 }

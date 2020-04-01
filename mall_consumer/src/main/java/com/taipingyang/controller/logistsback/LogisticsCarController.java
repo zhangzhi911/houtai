@@ -1,5 +1,6 @@
 package com.taipingyang.controller.logistsback;
 
+import com.taipingyang.api.logistsback.Logistics_car_api;
 import com.taipingyang.api.logistsback.Logistics_driver_api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -15,32 +16,15 @@ import org.springframework.web.bind.annotation.RestController;
  * To change this template use
  */
 @RestController
-public class LogisticsDriverController {
+public class LogisticsCarController {
 
     @Autowired
-    Logistics_driver_api logistics_driver_api;
+    private Logistics_car_api logisticsCarApi;
 
 
-    @RequestMapping("/tdriver/list")
-    public Object selectList(@RequestBody Object o){
-        return logistics_driver_api.selectLists(o);
-    }
-
-
-    @RequestMapping("/tdriver/inture")
-    public void inture(@RequestParam("driver_id") Integer driver_id){
-        logistics_driver_api.inture(driver_id);
-    }
-
-    @RequestMapping("/tdriver/infalse")
-    public void infalse(@RequestParam("driver_id") Integer driver_id){
-        logistics_driver_api.infalse(driver_id);
-    }
-
-
-    @RequestMapping("driver/add")
-    public void addDriver(@RequestBody Object o){
-         logistics_driver_api.addDriver(o);
+    @RequestMapping("tcar/add")
+    public void tcar(@RequestBody Object o){
+        logisticsCarApi.addCar(o);
     }
 
 }

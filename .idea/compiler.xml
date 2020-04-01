@@ -10,9 +10,9 @@
         <module name="logistics_user" />
         <module name="mall_consumer" />
         <module name="mall_testPoI" />
-        <module name="mall_testSwagger" />
-        <module name="mall_user" />
         <module name="mall_goods" />
+        <module name="mall_user" />
+        <module name="mall_testSwagger" />
         <module name="mall_server" />
         <module name="mall_logistics" />
       </profile>

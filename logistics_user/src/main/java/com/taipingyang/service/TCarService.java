@@ -1,10 +1,10 @@
-package com.taipingyang.mapper;
+package com.taipingyang.service;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.taipingyang.entity.TCar;
-import com.taipingyang.entity.TDriver;
-
-import java.util.List;
+import com.taipingyang.mapper.TCarMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 
 /**
@@ -15,7 +15,12 @@ import java.util.List;
  * @author Jsl
  * @since 2020-03-27
  */
-public interface TCarMapper extends BaseMapper<TCar> {
+@Service
+public class TCarService {
 
-    void addCar(TCar tCar);
+    @Autowired
+    private TCarMapper tCarMapper;
+    public void addCar(TCar tCar){
+        tCarMapper.addCar(tCar);
+    }
 }

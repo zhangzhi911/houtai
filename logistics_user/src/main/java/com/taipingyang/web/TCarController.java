@@ -4,9 +4,8 @@ package com.taipingyang.web;
 import com.github.pagehelper.PageInfo;
 import com.taipingyang.entity.TCar;
 import com.taipingyang.entity.TDriver;
-import com.taipingyang.entity.TUser;
+import com.taipingyang.service.TCarService;
 import com.taipingyang.service.TDriverService;
-import com.taipingyang.service.TUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,32 +21,14 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2020-03-27
  */
 @RestController
-public class TDriverController {
+public class TCarController {
 
     @Autowired
-    private TDriverService tDriverService;
-
-    @RequestMapping("/tdriver/list")
-    public PageInfo<TDriver> selectList(TDriver tDriver){
-        PageInfo<TDriver> info = tDriverService.selectLists(tDriver);
-        //System.out.println("车辆 " + info);
-        return info;
-    }
+    private TCarService tCarService;
 
 
-
-    @RequestMapping("/tdriver/inture")
-    public void inture(@RequestParam("driver_id") Integer driver_id){
-        tDriverService.inture(driver_id);
-    }
-
-    @RequestMapping("/tdriver/infalse")
-    public void infalse(@RequestParam("driver_id") Integer driver_id){
-        tDriverService.infalse(driver_id);
-    }
-
-    @RequestMapping("driver/add")
-    public void addDriver(@RequestBody TDriver tDriver){
-        tDriverService.addDriver(tDriver);
+    @RequestMapping("tcar/add")
+    public void tcar(@RequestBody TCar tCar){
+        tCarService.addCar(tCar);
     }
 }

@@ -37,4 +37,10 @@ public class LogisticsDriverController {
         logistics_driver_api.infalse(driver_id);
     }
 
+
+    @RequestMapping("driver/add")
+    public void addDriver(@RequestBody Object o){
+         logistics_driver_api.addDriver(o);
+    }
+
 }

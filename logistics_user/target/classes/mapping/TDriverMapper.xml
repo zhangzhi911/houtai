@@ -59,5 +59,12 @@ select * from t_driver as a left JOIN t_car as b on a.car_id=b.car_id
         UPDATE t_driver SET driver_ifforbidden=0 WHERE driver_id=#{driver_id}
     </update>
 
+    <insert id="addDriver">
+insert into t_driver set driver_name=#{driver_name},driver_level=#{driver_level},
+driver_man=#{driver_man},car_id=#{car_id},
+driver_gender=#{driver_gender},driver_age=#{driver_age},driver_mailbox=#{driver_mailbox},
+driver_phonenumber=#{driver_phonenumber},driver_headportrait=#{driver_headportrait}
+    </insert>
+
 
 </mapper>

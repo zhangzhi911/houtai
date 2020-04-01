@@ -26,6 +26,7 @@ public class TDriver extends Model<TDriver> {
     @TableId(value = "driver_id", type = IdType.AUTO)
     private Integer driver_id;//司机id
     private Integer car_id;//车辆id
+    private String driver_man;//随行人
     private String driver_account;//账号
     private String driver_password;//密码
     private String driver_name;//名字
