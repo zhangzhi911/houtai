@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"  >
+<mapper namespace="com.taipingyang.Mapper.goodMapper">
+
+
+    <resultMap id="GoodMap" type="com.taipingyang.entity.Goods">
+        <id column="t_gid" property="t_gid"></id>
+        <association property="Types" column="t_gid" select="selectTybeby"></association>
+    </resultMap>
+    <resultMap id="TypeMap" type="com.taipingyang.entity.Mytype">
+        <id property="type_id" column="type_id"></id>
+        <result property="label" column="type_name"></result>
+    </resultMap>
+    <select id="selectTybeby" resultMap="TypeMap">
+        SELECT * FROM `t_types` WHERE `type_id`=#{t_gid}
+    </select>
+
+    <!--??-->
+    <select id="findList" resultMap="GoodMap">
+        SELECT
+        *
+        FROM
+        `t_goods`
+        <where>
+            <if test="t_name!=null and t_name!=''">
+                and `t_name` =#{t_name}
+            </if>
+            <if test="t_type_id!=null">
+                AND `t_type_id` IN
+                (SELECT
+                t3.type_id
+                FROM
+                `t_types` t1
+                LEFT JOIN `t_types` t2
+                ON t1.type_id = t2.parent_id
+                LEFT JOIN `t_types` t3
+                ON t2.type_id = t3.parent_id
+                WHERE t1.type_id = #{t_type_id})
+                OR t_type_id=#{t_type_id}
+            </if>
+
+        </where>
+
+    </select>
+
+
+    <insert id="addGoods" parameterType="com.taipingyang.entity.Goods">
+        INSERT INTO `t_goods`
+        (`t_name`, `t_brand`, `t_document`, `t_image`, `t_delete`,`t_price`, `t_number`, `t_std`, `t_color`, `t_sales`, `t_type_id`)
+        VALUES
+        (#{t_name}, #{t_brand}, #{t_document}, #{t_image}, #{t_delete},#{t_price}, #{t_number},#{t_std}, #{t_color}, #{t_sales}, #{t_type_id});
+    </insert>
+
+
+    <update id="updateGoods" parameterType="com.taipingyang.entity.Goods">
+        UPDATE `t_goods` SET
+         `t_name` = #{t_name} , `t_brand` = #{t_brand} , `t_document` = #{t_document} ,
+          `t_image` = #{t_image} , `t_delete` =  #{t_delete} ,`t_price`=#{t_price}, `t_number` = #{t_number} ,
+          `t_std` = #{t_std} , `t_color` = #{t_color} , `t_sales` =  #{t_sales} , `t_type_id` = #{t_type_id}
+          WHERE `t_gid` = #{t_gid};
+    </update>
+
+
+    <delete id="delGoods" parameterType="com.taipingyang.entity.Goods">
+        DELETE FROM `t_goods` WHERE `t_gid` = #{t_gid};
+    </delete>
+
+
+</mapper>

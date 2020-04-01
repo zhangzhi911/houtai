@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"  >
+<mapper namespace="com.taipingyang.Mapper.BuyOrderMapper">
+
+
+    <!-- ???????? -->
+    <resultMap id="BaseResultMap" type="com.taipingyang.entity.Ordersdetails">
+        <id column="id" property="id" />
+        <result column="details_status" property="detailsStatus" />
+        <result column="BuyOrderId" property="BuyOrderId" />
+        <result column="salesorderID" property="salesorderID" />
+        <result column="t_gid" property="t_gid" />
+        <result column="t_name" property="t_name" />
+        <result column="num" property="num" />
+        <result column="t_price" property="t_price" />
+        <result column="flag" property="flag" />
+        <result column="t_brand" property="t_brand" />
+        <result column="t_image" property="t_image" />
+        <result column="type" property="type" />
+        <result column="t_sales" property="t_sales" />
+        <result column="logistics" property="logistics" />
+        <result column="valid" property="valid" />
+        <result column="t_document" property="t_document" />
+        <result column="createDate" property="createDate" />
+        <result column="remark" property="remark" />
+        <result column="createDate2" property="createDate2" />
+        <result column="t_name2" property="tName2" />
+        <result column="t_phone" property="tPhone" />
+        <result column="updateUser" property="updateUser" />
+    </resultMap>
+
+
+    <!-- ???????? -->
+    <resultMap id="BuyOrderMap" type="com.taipingyang.entity.BuyOrder">
+        <id column="id" property="id" />
+        <result column="o_createDate" property="oCreatedate" />
+        <result column="flag" property="flag" />
+        <result column="num" property="num" />
+        <result column="o_pay_status" property="oPayStatus" />
+        <result column="Payment" property="Payment" />
+        <result column="o_pay_cahnnel" property="oPayCahnnel" />
+        <result column="o_pay_time" property="o_pay_time" />
+        <result column="user_id" property="user_id" />
+        <result column="fapiao" property="fapiao" />
+        <result column="complimentary" property="complimentary" />
+        <result column="freight" property="freight" />
+        <result column="discount" property="discount" />
+        <result column="totalPrice" property="totalPrice" />
+        <result column="youhuiPrice" property="youhuiPrice" />
+        <result column="discounts" property="discounts" />
+        <result column="t_address" property="t_address" />
+        <result column="t_message" property="tMessage" />
+        <result column="valid" property="valid" />
+        <result column="remark" property="remark" />
+        <result column="createDate" property="createDate" />
+        <result column="t_name" property="t_name" />
+        <result column="t_phone" property="t_phone" />
+        <result column="updateUser" property="updateUser" />
+        <collection property="goods" column="id" select="selectBydetails" ></collection>
+    </resultMap>
+
+    <select id="selectBydetails" resultMap="BaseResultMap">
+        SELECT * FROM `tb_ordersdetails`  WHERE `BuyOrderId`=#{id}
+    </select>
+
+    <select id="getBuyOrder" resultMap="BuyOrderMap">
+        SELECT * FROM `tb_buyorders`  WHERE user_id =#{id}
+    </select>
+</mapper>

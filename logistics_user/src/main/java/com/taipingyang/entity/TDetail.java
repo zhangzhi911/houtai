@@ -36,13 +36,13 @@ public class TDetail extends Model<TDetail> {
     private String order_detail_driverpicture;//车辆照片
     private String order_detail_licenseplatenumber;//车牌号
     private Integer cartype_id;//车辆类型
-    private Integer order_detail_maximum;//最大载重
+    private String order_detail_maximum;//最大载重
     private Double order_detail_freightinsurance;//运费险
 
     @TableField(exist = false)
-    private Integer pageNo=1;
+    private Integer pageNo = 1;
     @TableField(exist = false)
-    private Integer pageSize=5;
+    private Integer pageSize = 5;
 
     @Override
     protected Serializable pkVal() {

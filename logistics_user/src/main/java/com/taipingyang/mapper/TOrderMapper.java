@@ -24,5 +24,6 @@ public  interface TOrderMapper extends BaseMapper<TOrder> {
 
     void addorder(TOrder tOrder);
 
+    Integer selectmaxId();
 
 }

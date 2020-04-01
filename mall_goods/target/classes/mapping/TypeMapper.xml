@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"  >
+<mapper namespace="com.taipingyang.Mapper.typeMapper">
+
+    <resultMap id="TypeMap" type="com.taipingyang.entity.Mytype">
+        <id property="type_id" column="type_id"></id>
+        <result property="label" column="type_name" ></result>
+        <collection property="children" column="type_id" select="selectByid"></collection>
+    </resultMap>
+    <!--???-->
+    <select id="selectByid" resultMap="TypeMap">
+        select * from t_types where parent_id=#{id}
+    </select>
+    <!--????-->
+    <select id="typelist" resultMap="TypeMap">
+        select * from t_types      where parent_id=0
+    </select>
+
+    <insert id="insertType" parameterType="com.taipingyang.entity.Mytype" >
+        insert into t_types(parent_id,type_name) values (${parent_id},#{type_name})
+    </insert>
+
+    <update id="updateType" parameterType="com.taipingyang.entity.Mytype" >
+        update t_types set parent_id=#{parent_id},type_name=#{type_name} where type_id=#{type_id}
+    </update>
+
+    <delete id="deleteType">
+        delete from t_types where type_id=#{type_id}
+    </delete>
+
+
+</mapper>

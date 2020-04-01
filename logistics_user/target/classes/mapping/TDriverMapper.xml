@@ -11,7 +11,7 @@
         <result column="car_id" property="car_id"></result>
         <result column="driver_account" property="driver_account"></result>
         <result column="driver_password" property="driver_password"></result>
-        <result column="driverselectLists_name" property="driver_name"></result>
+        <result column="driver_name" property="driver_name"></result>
         <result column="driver_age" property="driver_age"></result>
         <result column="driver_gender" property="driver_gender"></result>
         <result column="driver_ifforbidden" property="driver_ifforbidden"></result>

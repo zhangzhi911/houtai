@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"  >
+<mapper namespace="com.taipingyang.Mapper.orderMapper">
+
+    <resultMap id="orderMap" type="com.taipingyang.entity.Order">
+        <id column="t_id" property="t_id"></id>
+        <association property="goods" column="t_gid" select="selectBygoods"></association>
+        <association property="user" column="t_uid" select="selectByuser"></association>
+    </resultMap>
+
+
+    <select id="selectBygoods" resultType="com.taipingyang.entity.Goods">
+SELECT * FROM `t_goods` WHERE `t_goods`.`t_gid`=#{id}
+    </select>
+
+    <select id="selectByuser" resultType="com.taipingyang.entity.User">
+SELECT * FROM `t_users` WHERE `t_users`.`user_id`=#{id}
+    </select>
+
+
+    <select id="orderList" resultMap="orderMap">
+ SELECT * FROM t_order
+
+    </select>
+
+    <insert id="addOrder" parameterType="com.taipingyang.entity.Order">
+        INSERT INTO
+        `t_order`
+        (`t_gid`, `t_uid`, `t_sum`, `t_count`, `t_way`, `t_message`)
+        VALUES
+        (#{t_gid},#{t_uid},#{t_sum},#{t_count},#{t_way},#{t_message});
+    </insert>
+
+    <update id="updateOrder" parameterType="com.taipingyang.entity.Order">
+        UPDATE `t_order` SET
+        `t_gid` = #{t_gid} , `t_uid` = #{t_uid}, `t_sum` = #{t_sum},
+         `t_count` = #{t_count}, `t_way` = #{t_way}, `t_message` = #{t_message}
+          WHERE `t_id` = #{t_id};
+    </update>
+
+    <delete id="delOrder" parameterType="com.taipingyang.entity.Order">
+        DELETE FROM `t_order` WHERE `t_id` = #{t_id};
+    </delete>
+
+
+    <insert id="addOrder2"      useGeneratedKeys="true" keyProperty="id" keyColumn="id" parameterType="com.taipingyang.entity.BuyOrder">
+INSERT INTO `tb_buyorders` (
+  `o_createDate`,
+  `flag`,
+  `num`,
+  `o_pay_status`,
+  `Payment`,
+  `o_pay_cahnnel`,
+  `o_pay_time`,
+  `user_id`,
+  `fapiao`,
+  `complimentary`,
+  `freight`,
+  `discount`,
+  `totalPrice`,
+  `youhuiPrice`,
+  `discounts`,
+  `t_address`,
+  `t_message`,
+  `valid`,
+  `remark`,
+  `createDate`,
+  `t_name`,
+  `t_phone`,
+  `updateUser`
+)
+VALUES
+  (
+    #{createDate},
+    #{flag},
+    #{num},
+    #{oPayStatus},
+    #{Payment},
+    #{oPayCahnnel},
+    #{o_pay_time},
+    #{user_id},
+    #{fapiao},
+    #{complimentary},
+    #{freight},
+    #{discount},
+    #{totalPrice},
+    #{youhuiPrice},
+    #{discounts},
+    #{t_address},
+    #{tMessage},
+    #{valid},
+    #{remark},
+    #{createDate},
+    #{t_name},
+    #{t_phone},
+    #{updateUser}
+  ) ;
+
+
+    </insert>
+
+
+    <insert id="addOrdersdetails" parameterType="com.taipingyang.entity.Ordersdetails">
+        INSERT INTO tb_ordersdetails(
+  `BuyOrderId`,
+  `salesorderID`,
+  `t_gid`,
+  `t_name`,
+  `num`,
+  `t_price`,
+  `flag`,
+  `t_brand`,
+   `type`,
+  `t_sales`,
+  `logistics`,
+  `valid`,
+  `t_document`,
+  `createDate`,
+  `remark`,
+  `createDate2`,
+  `t_name2`,
+  `t_phone`,
+  `updateUser`,
+  `t_image`
+)
+VALUES
+  (
+    #{BuyOrderId},
+    #{salesorderID},
+    #{t_gid},
+    #{t_name},
+    #{num},
+    #{t_price},
+    #{flag},
+    #{t_brand},
+    #{type},
+    #{t_sales},
+    #{logistics},
+    #{valid},
+    #{t_document},
+    #{createDate},
+    #{remark},
+    #{createDate2},
+    #{tName2},
+    #{tPhone},
+    #{updateUser},
+    #{t_image}
+  );
+    </insert>
+
+
+</mapper>

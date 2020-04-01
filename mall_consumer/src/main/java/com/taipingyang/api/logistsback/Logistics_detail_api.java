@@ -15,7 +15,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient(value = "logisticsuser")
 public interface Logistics_detail_api {
 
-
+    @RequestMapping("/detail/insert")
+    void insertdetail(@RequestBody Object o);
 
     @RequestMapping("/detail/byid")
     Object getById(@RequestParam("order_detail_id") Integer order_detail_id);

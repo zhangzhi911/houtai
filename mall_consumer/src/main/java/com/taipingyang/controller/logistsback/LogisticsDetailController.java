@@ -21,9 +21,12 @@ public class LogisticsDetailController {
     Logistics_detail_api logistics_detail_api;
 
     @RequestMapping("/detail/byid")
-    Object getById(@RequestParam("order_detail_id") Integer order_detail_id){
-       return logistics_detail_api.getById(order_detail_id);
+    Object getById(@RequestParam("order_detail_id") Integer order_detail_id) {
+        return logistics_detail_api.getById(order_detail_id);
     }
 
-
+    @RequestMapping("/detail/insert")
+    void insertdetail(@RequestBody Object o) {
+        logistics_detail_api.insertdetail(o);
+    }
 }
